@@ -6,6 +6,7 @@
 
   // api接口请求地址
   window.SITE_CONFIG['baseUrl'] = 'http://101.71.157.173:8088/innovation2019/api';
+  // window.SITE_CONFIG['baseUrl'] = 'http://localhost:8081/innovation2019';
 
   // cdn地址 = 域名 + 版本号
   window.SITE_CONFIG['domain']  = './'; // 域名
