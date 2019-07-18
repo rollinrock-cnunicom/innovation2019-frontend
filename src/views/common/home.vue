@@ -2,27 +2,24 @@
   <div class="mod-home">
     <h3>项目介绍</h3>
     <ul>
-      <li>renren-fast-vue基于vue、element-ui构建开发，实现<a href="https://gitee.com/renrenio/renren-fast" target="_blank">renren-fast</a>后台管理前端功能，提供一套更优的前端解决方案</li>
-      <li>前后端分离，通过token进行数据交互，可独立部署</li>
-      <li>主题定制，通过scss变量统一一站式定制</li>
-      <li>动态菜单，通过菜单管理统一管理访问路由</li>
-      <li>数据切换，通过mock配置对接口数据／mock模拟数据进行切换</li>
-      <li>发布时，可动态配置CDN静态资源／切换新旧版本</li>
-      <li>演示地址：<a href="http://fast.demo.renren.io" target="_blank">fast.demo.renren.io</a> (账号密码：admin/admin)</li>
+      <li>为项目外宏站建设决策时提供决策辅助</li>
+      <li>基于提供的站点建设基础信息，计算无线、动力、传输、塔租各专业的设备、施工、和运营成本</li>
+      <li>基于新建基站的覆盖分类，智能计算周边站点的业务及其波动趋势，预测收入变化，计算投资回收期</li>
+      <li>基于新建基站位置，自动抓取互联网数据，识别周边重要场景及其覆盖情况，评估站点建设的口碑需求</li>
+      <li>基于新建基站位置，自动提供周边区域用户投诉记录、途径用户密度平均、ARPU评价、友商业务量平均数据</li>
+      <li>服务架构期间基于虚拟数据，确保真实运营数据安全</li>
+      <li>运行后基于OA内网运行，根据不同的账号权限，提供不同区域（县分）的网络信息</li>
     </ul>
-    <h3>获取帮助</h3>
+    <h3>创作组</h3>
     <ul>
-      <li>官方社区：<a href="//renren.io" target="_blank">renren.io</a></li>
-      <li>前端Git地址：<a href="//github.com/daxiongYang/renren-fast-vue" target="_blank">github.com/daxiongYang/renren-fast-vue</a></li>
-      <li>后台Git地址：<a href="//git.oschina.net/renrenio/renren-fast" target="_blank">git.oschina.net/renrenio/renren-fast</a></li>
-      <li>代码生成器：<a href="//git.oschina.net/renrenio/renren-generator" target="_blank">git.oschina.net/renrenio/renren-generator</a></li>
-      <li>如需关注项目最新动态，请Watch、Star项目，同时也是对项目最好的支持</li>
+      <li>金华联通创新第三小组：唐国军、方豪平、曹晶</li>
     </ul>
-    <h3>官方QQ群</h3>
+    <h3>联系我们</h3>
     <ul>
-      <li>高级群：324780204(大牛云集，跟大牛学习新技能)</li>
-      <li>普通群：145799952(学习交流，互相解答各种疑问)</li>
+      <li>联系电话：15657970975</li>
+      <li>邮箱地址：fanghp7@chinaucom.cn</li>
     </ul>
+    <h3>欢迎学习交流，并提宝贵意见！</h3>
   </div>
 </template>
 

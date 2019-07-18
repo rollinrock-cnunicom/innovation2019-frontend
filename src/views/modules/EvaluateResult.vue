@@ -1,6 +1,6 @@
 <template>
   <el-dialog :visible.sync="visible" title="评估结果" width="80%" @close="asClose">
-    <h4>投资回收期（年）:<span>{{(data.investmentRecoveryYears).toFixed(0)}}</span></h4>
+    <h4>投资回收期（年）<span>{{(data.investmentRecoveryYears).toFixed(0)}}</span></h4>
     <el-row :gutter="20">
       <el-col :span="8"><label>主设备（万元）</label><span>{{(data.equipmentCost / 10000).toFixed(2)}}</span></el-col>
       <el-col :span="8"><label>配套及施工费（万元）</label><span>{{(data.installCost / 10000).toFixed(2)}}</span></el-col>
