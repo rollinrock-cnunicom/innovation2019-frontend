@@ -164,7 +164,7 @@
     <el-row>
       <p>坐标：[{{clickLng}}，{{clickLat}}] 地址：{{address}}</p>
     </el-row>
-    <evaluate-result v-if="evaluateResultVisible" ref="evaluateResult" @onCallbackWhenClose="evaluateResultVisible = false"></evaluate-result>
+    <evaluate-result ref="evaluateResult" @onCallbackWhenClose="evaluateResultVisible = false"></evaluate-result>
   </div>
 </template>
 
@@ -342,7 +342,7 @@ export default {
         if (data && data.code === 0) {
           this.evaluateResultVisible = true
           this.$nextTick(() => {
-            this.$refs.evaluateResult.init(data.result)
+            this.$refs.evaluateResult.show(data.result)
           })
         } else {
           this.$message.error(`评估失败：${data.message}`)
